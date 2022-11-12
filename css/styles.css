@@ -426,21 +426,19 @@ padding-bottom: 0px;
 .page-footer {
     background-color:#2F303A;
 }
+
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-social {
+    margin-left: 70px;
 }
 
-.footer-social-icons .social-icons {
-    display: inline-block;
+.social-icons {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-social-tittle {
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .address-link  {
