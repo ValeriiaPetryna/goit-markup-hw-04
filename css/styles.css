@@ -117,9 +117,24 @@ text-decoration:none ;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.header-list-link:hover, :focus {
+/* .header-list-link:hover, :focus {
+    color: #2196F3;
+} */
+
+.adress-item:hover,
+:focus {
     color: #2196F3;
 }
+
+.header-tel-link:hover .icon-tel, .header-tel-link:focus .icon-tel {
+    fill: #2196F3;
+}
+
+.header-mail-link:hover .icon-mail,
+.header-mail-link:focus .icon-mail {
+    fill: #2196F3;
+}
+
 
 .header-tel-link, .header-mail-link {
 font-size: 14px;
