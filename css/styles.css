@@ -131,15 +131,17 @@ text-align: left;
 color:#757575 ;
 }
 
-.address-item .header-mail-icon {
+.icon-tel {
+    display: inline-flex;
+    align-items: center;
     margin-right: 10px;
 }
-.address-item .header-tel-icon {
+
+.icon-mail {
+    display: inline-flex;
+        align-items: center;
     margin-right: 10px;
-    margin-left: 30px;
-    }
-
-
+}
 
 /* .hero */
 .hero {
