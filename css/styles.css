@@ -73,6 +73,8 @@ padding-top: 32px;
 padding-bottom: 32px;
 }
 
+.
+
 .page-header .container {
 display: flex;
   align-items: center;
@@ -81,6 +83,7 @@ display: flex;
 .header-nav {
     display: flex;
     align-items: center; 
+    margin-right: auto;
 }
 .header-list {
     display: flex;
@@ -100,7 +103,6 @@ margin-left: 30px;
 }
 
 .header-mail-link {
-    margin-right: 50px;
     margin-left: 344px;
 }
 
@@ -131,12 +133,21 @@ text-align: left;
 color:#757575 ;
 }
 
+.header-tel-link {
+    align-items: center;
+}
+
 .icon-tel {
     display: inline-flex;
     align-items: center;
     margin-right: 10px;
 }
 
+.icon-mail {
+    display: inline-flex;
+        align-items: center;
+    margin-right: 10px;
+}
 
 /* .hero */
 .hero {
