@@ -605,6 +605,10 @@ display: inline-block;
     
 }   
 
+.contacts-link {
+    display: flex;
+    align-items: center;
+}
 .contacts-list.list {
 padding-inline-start: 0px;
 padding-bottom: 57px;
@@ -683,6 +687,11 @@ margin-left: 8px;
     color: rgba(33, 33, 33, 1);
     border-radius: 4px; ;
 }
+
+
+.filter-button:hover, :focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 .filter-button1 {
 width: 73px; ;
 }
@@ -691,8 +700,9 @@ width: 125px;
 }
 .filter-button3 { 
 width: 112px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+/* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
+
 .filter-button4 {
 width: 103px;
 }
@@ -709,7 +719,8 @@ width: 130px;
 }
 
 .card:hover, :focus {
-    filter: drop-shadow: rgba(238, 238, 238, 1);
-    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    1px 4px 6px rgba(0, 0, 0, 0.16);
   
 }
